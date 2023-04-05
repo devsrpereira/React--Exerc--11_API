@@ -1,0 +1,56 @@
+@charset "UTM-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fontInter: 'Inter';
+    --fontPoppins: 'Poppins';
+    --fontNoto: 'Noto Sans';
+}
+
+
+body, html{
+    text-align: center;
+}
+.api_body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    padding: 30px;
+    font-family: var(--fontNoto);
+}
+.api_page{
+    margin: auto;
+    width: 550px;
+    border: 1px solid rgb(151, 150, 150);
+    border-radius: 20px;
+    padding:20px ;
+    font-size: 18px;
+    text-align: justify;
+    word-wrap: normal;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.299);
+}
+.api_btn{
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+    width: 100px;
+    font-size: 14px;
+    border-radius: 8px;
+    color:#fff;
+    background-color: #592c8d;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.235);
+}
+.api_btn:hover{
+    background-color: #402165;
+    color:#fff;
+}
